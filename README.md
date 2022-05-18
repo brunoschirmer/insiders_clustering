@@ -72,7 +72,7 @@ With this it is possible to plan what actions should be taken to keep the Inside
 A tree based embedding was used to organize the feature space, and then reduced using UMAP.
 
 UMAP only.
-![](umap.png)
+![](https://github.com/brunoschirmer/insiders_clustering/blob/master/img/umap.png)
 
 UMAP+Tree-based embedding.
 ![](https://github.com/brunoschirmer/insiders_clustering/blob/master/img/umapplusforest.png)
