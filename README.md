@@ -69,18 +69,27 @@ With this it is possible to plan what actions should be taken to keep the Inside
 
 
 ## Application of the Machine Learning Model
+A tree based embedding was used to organize the feature space, and then reduced using UMAP.
+
+UMAP only.
+![](umap.png)
+
+UMAP+Tree-based embedding.
+![](https://github.com/brunoschirmer/insiders_clustering/blob/master/img/umapplusforest.png)
+
 KMeans, GMN and HClustering models were tested and validated with cross validation, obtaining the following results:
 
-
-
+![](https://github.com/brunoschirmer/insiders_clustering/blob/master/img/sstable.png)
 **For the solution of the business problem KMeans was used:**
 
 ## Conclusion
 
 Cluster Insider Composition:
-- Number of customers: 412 (14% of customers)
-- Average billing: $9757.00 dollars
-- Average recency: 20 days
-- Average of Products purchased: 451 products
-- Frequency of Products purchased: 0.10 products/day
-- Average revenue: $9757.00 dollars
+
+![](https://github.com/brunoschirmer/insiders_clustering/blob/master/img/description.png)
+
+- Number of customers: 373 (12% of customers)
+- Average billing: $10.503.00 dollars
+- Average recency: 19 days
+- Average of Products purchased: 475 products
+- Frequency of Products purchased: 0.11 products/day
