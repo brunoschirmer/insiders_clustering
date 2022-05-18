@@ -80,7 +80,7 @@ UMAP+Tree-based embedding.
 KMeans, GMN and HClustering models were tested and validated with cross validation, obtaining the following results:
 
 ![](https://github.com/brunoschirmer/insiders_clustering/blob/master/img/sstable.png)
-**For the solution of the business problem KMeans was used:**
+**For the solution of the business problem GMM was used**
 
 ## Conclusion
 
