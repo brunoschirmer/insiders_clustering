@@ -52,6 +52,10 @@ With this it is possible to plan what actions should be taken to keep the Inside
 
 **Cluster Analysis:** Space Study: PCA, t-SNE, Tree-Based Embedding, Decision Tree.
 
+**Deployment to AWS and visualization with Metabase:**
+
+![](https://github.com/brunoschirmer/insiders_clustering/blob/master/img/deploy.png)
+
 
 ## Data Insights
 
